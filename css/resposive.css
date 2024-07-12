@@ -1,4 +1,4 @@
-/* Phone View - Small View */
+/* Nav Responsive Design */
 @media(max-width:640px) {
     /*Styles*/
     html {
@@ -37,12 +37,31 @@
         height: auto;
         overflow: auto;
     }
+
 }
 
-/* Tablet View - Medium View */
-@media((min-width:640px) and (max-width:1007px)){
+/* Sections Responsive Design */
+@media(max-width:1007px){
     html {
         font-size: 14px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        padding: 4%;
+    }
+
+    .about-image-container {
+        width: 100%;
+        margin: 2rem 0px;
+    }
+
+    .about-image-container img {
+        width: 30%;
+    }
+
+    .about-description-container {
+        width: 100%;
     }
 }
 
