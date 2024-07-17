@@ -23,3 +23,32 @@
     width: 70%;
     margin-top: 2rem;
 }
+
+/*PROJECT SECTION */
+.project-container {
+    padding: 0.65rem;
+}
+.project-cards{
+    margin: 1rem;
+}
+
+.project-cards:hover {
+    opacity: 0.6;
+    border: 0.5rem solid var(--surface-color);
+}
+
+.project-cards img{
+    width: 95%;
+    padding: 2%;
+}
+
+.project-cards p {
+    margin-top: 0.3rem;
+}
+
+.skills-container {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.75rem;
+}
